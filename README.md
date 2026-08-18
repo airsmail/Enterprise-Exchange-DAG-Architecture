@@ -13,10 +13,10 @@ By consciously excluding the Windows Desktop Experience (GUI), this architecture
 The entire topology is virtualized on a Proxmox VE cluster. 
 
 *   **Hypervisor:** Proxmox VE
-*   **Domain Controller / FSW:** Windows Server 2022 (GUI) - IP: 192.168.1.173
-*   **Exchange Node 1 (EXCH01):** Windows Server 2022 Core - 8GB RAM, 4 vCPU - IP: 192.168.1.184
-*   **Exchange Node 2 (EXCH02):** Windows Server 2022 Core - 8GB RAM, 4 vCPU - IP: 192.168.1.185
-*   **DAG Cluster IP:** 192.168.1.200
+*   **Domain Controller / FSW:** Windows Server 2022 (GUI) - IP: 192.168.1.xxx
+*   **Exchange Node 1 (EXCH01):** Windows Server 2022 Core - 8GB RAM, 4 vCPU - IP: 192.168.1.xxx
+*   **Exchange Node 2 (EXCH02):** Windows Server 2022 Core - 8GB RAM, 4 vCPU - IP: 192.168.1.xxx
+*   **DAG Cluster IP:** 192.168.1.xxx
 
 ![EXCH01 Specs](images/ex1vm%20spec.png)
 ![EXCH02 Specs](images/ex2vm%20spec.png)
